@@ -1,6 +1,6 @@
 export default {
   addTodo(state, text) {
-    state.push({
+    state.todos.push({
       id: state.id++,
       isFinished: false,
       text,

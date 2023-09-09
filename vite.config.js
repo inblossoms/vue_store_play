@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [vue()],
   resolve: {
-    extensions: [".vue"],
+    extensions: [".vue", ".js"],
     alias: resolve(__dirname, "src"),
   },
 });

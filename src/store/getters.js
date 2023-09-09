@@ -2,7 +2,7 @@ export default {
   _getFinishedTodos(state) {
     return state.todos.filter((todo) => todo.isFinished);
   },
-  _getUnFinishedTodos() {
+  _getUnFinishedTodos(state) {
     return state.todos.filter((todo) => !todo.isFinished);
   },
   getAllTodos(state, getters) {

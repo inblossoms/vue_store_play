@@ -1,7 +1,11 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import Form from "./components/Todo/Form";
+import Tab from "./components/Todo/Tab";
+import Todos from "./components/Todo/Todos";
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <Tab></Tab>
+  <Form></Form>
+  <Todos></Todos>
 </template>
