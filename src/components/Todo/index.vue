@@ -1,12 +1,12 @@
 <script setup>
-import TodoTab from "./Tab.vue";
-import TodoFrom from "./From.vue";
-import Todos from "./Todos.vue";
+import TodoTab from "./Tab";
+import TodoForm from "./Form";
+import Todos from "./Todos";
 </script>
 
 <template>
   <todo-tab></todo-tab>
-  <todo-from></todo-from>
+  <todo-form></todo-form>
   <todos></todos>
 </template>
 
