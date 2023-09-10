@@ -1,6 +1,6 @@
 # vuex
 
-实现 vuex 基础功能
+通过 Todo List 逆向实现 vuex、pinia 基本功能
 
 ### TodoList
 
