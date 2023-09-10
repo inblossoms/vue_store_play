@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import { useStore } from "vuex";
+import { useStore } from "@/vuex";
 
 const store = new useStore();
 const iptVal = ref("");
